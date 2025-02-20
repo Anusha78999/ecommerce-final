@@ -1,4 +1,4 @@
-const API_URL = "https://kle-com-backend.onrender.com";
+const API_URL = "https://kle-com-backend";
 
 export async function login(credentials) {
   const response = await fetch(`${API_URL}/login`, {
